@@ -1,4 +1,4 @@
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./post.css";
 
 export default function Post({ img }) {
@@ -8,20 +8,20 @@ export default function Post({ img }) {
 			<div className="postInfo">
 				<div className="postCats">
 					<span className="postCat">
-						{/* <NavLink className="link" to="/posts?cat=Music"> */}
-						Music
-						{/* </NavLink> */}
+						<NavLink className="link" to="/posts?cat=Music">
+							Music
+						</NavLink>
 					</span>
 					<span className="postCat">
-						{/* <NavLink className="link" to="/posts?cat=Music"> */}
-						Life
-						{/* </NavLink> */}
+						<NavLink className="link" to="/posts?cat=Music">
+							Life
+						</NavLink>
 					</span>
 				</div>
 				<span className="postTitle">
-					{/* <NavLink to="/post/abc" className="link"> */}
-					Lorem ipsum dolor sit amet
-					{/* </NavLink> */}
+					<NavLink to="/post/abc" className="link">
+						Lorem ipsum dolor sit amet
+					</NavLink>
 				</span>
 				<hr />
 				<span className="postDate">1 hour ago</span>
